@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConstraintLayoutApp">
         <activity
+            android:name=".LinearLayout"
+            android:exported="false" />
+        <activity
+            android:name=".RelativeLayout"
+            android:exported="false" />
+        <activity
+            android:name=".TableLayout"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
