@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+    <TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Form Biodata"
+android:textSize="20sp"
+android:textStyle="bold"/>
+
+    <EditText
+android:id="@+id/etNama"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Masukkan Nama"
+android:layout_marginTop="10dp"/>
+
+    <EditText
+android:id="@+id/etUmur"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Masukkan Umur"
+android:inputType="number"
+android:layout_marginTop="10dp"/>
+
+    <Button
+android:id="@+id/btnSubmit"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Submit"
+android:layout_marginTop="10dp"/>
+
+    <TextView
+android:id="@+id/tvHasil"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Hasil akan tampil di sini"
+android:layout_marginTop="15dp"/>
+
+</LinearLayout>
